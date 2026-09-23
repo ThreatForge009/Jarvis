@@ -1,7 +1,5 @@
-# ⚙️ MARK LIV (54)
-### The Ultimate Cross-Platform Personal AI Assistant — By FatihMakes
-
-> 📺 **[Watch the full setup video on YouTube](https://www.youtube.com/@FatihMakes)**
+# ⚙️ Jarvis (54)
+### The Ultimate Cross-Platform Personal AI Assistant — By Sami Ullah
 
 A real-time voice AI that can hear, see, speak, and control your computer — on any OS. Supports Windows, macOS, and Linux. Built on the Gemini Live API for native audio streaming, delivering zero subscriptions and total digital autonomy.
 
@@ -9,7 +7,7 @@ A real-time voice AI that can hear, see, speak, and control your computer — on
 
 ## ✨ Overview
 
-**MARK LIV is the release where JARVIS gets a face.** A holographic head sits at the centre of the HUD and **speaks your assistant's words with real lip-sync** — not a jaw flapping to the volume meter, but actual mouth shapes: lips closing on *m*, *b*, *p*, spreading on *i*, rounding on *u*. Brows ride the sentence, the eyes flick between fixation points, and it blinks. Turn the sound down and you can follow roughly what it just said.
+**MARkis the release where JARVIS gets a face.** A holographic head sits at the centre of the HUD and **speaks your assistant's words with real lip-sync** — not a jaw flapping to the volume meter, but actual mouth shapes: lips closing on *m*, *b*, *p*, spreading on *i*, rounding on *u*. Brows ride the sentence, the eyes flick between fixation points, and it blinks. Turn the sound down and you can follow roughly what it just said.
 
 It ships as **zero extra dependencies and one 25 KB asset**. The face is real measured human geometry; everything else — the skull, the rig, the lighting — is generated at startup and drawn in software, so it looks identical on a gaming rig and a 2013 laptop, with no GPU driver in the loop.
 
@@ -80,7 +78,7 @@ It's not just an assistant — it's an extension of your digital life.
 
 ---
 
-## 🆕 What's New in Mark LIV
+## 🆕 What's New in Jarvis
 
 No hardcoded language, no GPU requirement, no new dependencies — identical on Windows, macOS and Linux.
 
@@ -307,7 +305,7 @@ python main.py
 ## 🗂️ Project Structure
 
 ```
-Mark LIV/
+Jarvis/
 ├── main.py                   # Core loop — Gemini Live session, audio I/O, viseme extraction, tool dispatch
 ├── ui.py                     # PyQt6 HUD — avatar canvas, waveform, log panel, settings drawer, camera feed
 ├── setup.py                  # OS-aware installer (skips wrong-OS dependencies, checks your Python)
@@ -365,11 +363,6 @@ Mark LIV/
 
 ---
 
-## 🙏 Third-Party Assets
-
-| Asset | Source | Licence |
-| --- | --- | --- |
-| `core/face_model.obj` | [MediaPipe](https://github.com/google-ai-edge/mediapipe) canonical face model — 468 vertices of measured human face geometry | Apache License 2.0 |
 
 ---
 
@@ -396,12 +389,3 @@ Licensed under **[Creative Commons BY-NC 4.0](https://creativecommons.org/licens
 
 ---
 
-## 👤 Connect with the Creator
-
-Engineered by a developer building a real-world JARVIS-style assistant.
-⭐ **Star the repository to support the journey to Mark 100.**
-
-| Platform | Link |
-| --- | --- |
-| YouTube | [@FatihMakes](https://www.youtube.com/@FatihMakes) |
-| Instagram | [@fatihmakes](https://www.instagram.com/fatihmakes) |
